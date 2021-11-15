@@ -1,0 +1,42 @@
+import json
+import requests
+from nasa_api import API
+from commands_nasa import *
+
+def user_input_data():
+    try:
+        year = int(input(year_messages))
+        month = int(input(month_messages))
+        day = int(input(day_messages))
+        if len(str(year)) == 4 and len(str(month)) == 2 and len(str(day)) == 2:
+            data_photo_mars_photo = f'{year}-{month}-{day}'
+            print(data_photo_mars_photo)
+            return str(data_photo_mars_photo)
+        else:
+            print(validator_data)
+    except ValueError:
+        print(user_input_except)
+        return user_input_data()
+
+
+def user_parameters():
+    data_photo = user_input_data()
+    my_parameter = {'api_key': API,
+                    'earth_date': data_photo}
+    return my_parameter
+
+
+def response_user_url():
+    try:
+        parameter = user_parameters()
+        url = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos'
+        response = requests.get(url, params=parameter)
+        if response.status_code == 200:
+            with open('mars_photos.json', 'w', encoding='utf-8') as file_json:
+                json.dump(response.json(), file_json, ensure_ascii=False, indent=4)
+    except ConnectionError:
+        print(connection_error_messages)
+
+response_user_url()
+
+

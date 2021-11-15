@@ -1,0 +1,232 @@
+{
+    "photos": [
+        {
+            "id": 893990,
+            "sol": 3296,
+            "camera": {
+                "id": 20,
+                "name": "FHAZ",
+                "rover_id": 5,
+                "full_name": "Front Hazard Avoidance Camera"
+            },
+            "img_src": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03296/opgs/edr/fcam/FLB_690088600EDR_F0912132FHAZ00341M_.JPG",
+            "earth_date": "2021-11-13",
+            "rover": {
+                "id": 5,
+                "name": "Curiosity",
+                "landing_date": "2012-08-06",
+                "launch_date": "2011-11-26",
+                "status": "active"
+            }
+        },
+        {
+            "id": 893991,
+            "sol": 3296,
+            "camera": {
+                "id": 20,
+                "name": "FHAZ",
+                "rover_id": 5,
+                "full_name": "Front Hazard Avoidance Camera"
+            },
+            "img_src": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03296/opgs/edr/fcam/FRB_690088600EDR_F0912132FHAZ00341M_.JPG",
+            "earth_date": "2021-11-13",
+            "rover": {
+                "id": 5,
+                "name": "Curiosity",
+                "landing_date": "2012-08-06",
+                "launch_date": "2011-11-26",
+                "status": "active"
+            }
+        },
+        {
+            "id": 893992,
+            "sol": 3296,
+            "camera": {
+                "id": 21,
+                "name": "RHAZ",
+                "rover_id": 5,
+                "full_name": "Rear Hazard Avoidance Camera"
+            },
+            "img_src": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03296/opgs/edr/rcam/RLB_690088634EDR_F0912132RHAZ00341M_.JPG",
+            "earth_date": "2021-11-13",
+            "rover": {
+                "id": 5,
+                "name": "Curiosity",
+                "landing_date": "2012-08-06",
+                "launch_date": "2011-11-26",
+                "status": "active"
+            }
+        },
+        {
+            "id": 893993,
+            "sol": 3296,
+            "camera": {
+                "id": 21,
+                "name": "RHAZ",
+                "rover_id": 5,
+                "full_name": "Rear Hazard Avoidance Camera"
+            },
+            "img_src": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03296/opgs/edr/rcam/RRB_690088634EDR_F0912132RHAZ00341M_.JPG",
+            "earth_date": "2021-11-13",
+            "rover": {
+                "id": 5,
+                "name": "Curiosity",
+                "landing_date": "2012-08-06",
+                "launch_date": "2011-11-26",
+                "status": "active"
+            }
+        },
+        {
+            "id": 893994,
+            "sol": 3296,
+            "camera": {
+                "id": 23,
+                "name": "CHEMCAM",
+                "rover_id": 5,
+                "full_name": "Chemistry and Camera Complex"
+            },
+            "img_src": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03296/opgs/edr/ccam/CR0_690087885EDR_F0912132CCAM02296M_.JPG",
+            "earth_date": "2021-11-13",
+            "rover": {
+                "id": 5,
+                "name": "Curiosity",
+                "landing_date": "2012-08-06",
+                "launch_date": "2011-11-26",
+                "status": "active"
+            }
+        },
+        {
+            "id": 893995,
+            "sol": 3296,
+            "camera": {
+                "id": 23,
+                "name": "CHEMCAM",
+                "rover_id": 5,
+                "full_name": "Chemistry and Camera Complex"
+            },
+            "img_src": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03296/opgs/edr/ccam/CR0_690087362EDR_F0912132CCAM02296M_.JPG",
+            "earth_date": "2021-11-13",
+            "rover": {
+                "id": 5,
+                "name": "Curiosity",
+                "landing_date": "2012-08-06",
+                "launch_date": "2011-11-26",
+                "status": "active"
+            }
+        },
+        {
+            "id": 893996,
+            "sol": 3296,
+            "camera": {
+                "id": 23,
+                "name": "CHEMCAM",
+                "rover_id": 5,
+                "full_name": "Chemistry and Camera Complex"
+            },
+            "img_src": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03296/opgs/edr/ccam/CR0_690087235EDR_F0912132CCAM01296M_.JPG",
+            "earth_date": "2021-11-13",
+            "rover": {
+                "id": 5,
+                "name": "Curiosity",
+                "landing_date": "2012-08-06",
+                "launch_date": "2011-11-26",
+                "status": "active"
+            }
+        },
+        {
+            "id": 893997,
+            "sol": 3296,
+            "camera": {
+                "id": 23,
+                "name": "CHEMCAM",
+                "rover_id": 5,
+                "full_name": "Chemistry and Camera Complex"
+            },
+            "img_src": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03296/opgs/edr/ccam/CR0_690086544EDR_F0912132CCAM01296M_.JPG",
+            "earth_date": "2021-11-13",
+            "rover": {
+                "id": 5,
+                "name": "Curiosity",
+                "landing_date": "2012-08-06",
+                "launch_date": "2011-11-26",
+                "status": "active"
+            }
+        },
+        {
+            "id": 893998,
+            "sol": 3296,
+            "camera": {
+                "id": 23,
+                "name": "CHEMCAM",
+                "rover_id": 5,
+                "full_name": "Chemistry and Camera Complex"
+            },
+            "img_src": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03296/soas/rdr/ccam/CR0_690087885PRC_F0912132CCAM02296L1.PNG",
+            "earth_date": "2021-11-13",
+            "rover": {
+                "id": 5,
+                "name": "Curiosity",
+                "landing_date": "2012-08-06",
+                "launch_date": "2011-11-26",
+                "status": "active"
+            }
+        },
+        {
+            "id": 893999,
+            "sol": 3296,
+            "camera": {
+                "id": 23,
+                "name": "CHEMCAM",
+                "rover_id": 5,
+                "full_name": "Chemistry and Camera Complex"
+            },
+            "img_src": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03296/soas/rdr/ccam/CR0_690087362PRC_F0912132CCAM02296L1.PNG",
+            "earth_date": "2021-11-13",
+            "rover": {
+                "id": 5,
+                "name": "Curiosity",
+                "landing_date": "2012-08-06",
+                "launch_date": "2011-11-26",
+                "status": "active"
+            }
+        },
+        {
+            "id": 894000,
+            "sol": 3296,
+            "camera": {
+                "id": 23,
+                "name": "CHEMCAM",
+                "rover_id": 5,
+                "full_name": "Chemistry and Camera Complex"
+            },
+            "img_src": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03296/soas/rdr/ccam/CR0_690087235PRC_F0912132CCAM01296L1.PNG",
+            "earth_date": "2021-11-13",
+            "rover": {
+                "id": 5,
+                "name": "Curiosity",
+                "landing_date": "2012-08-06",
+                "launch_date": "2011-11-26",
+                "status": "active"
+            }
+        },
+        {
+            "id": 894001,
+            "sol": 3296,
+            "camera": {
+                "id": 23,
+                "name": "CHEMCAM",
+                "rover_id": 5,
+                "full_name": "Chemistry and Camera Complex"
+            },
+            "img_src": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03296/soas/rdr/ccam/CR0_690086544PRC_F0912132CCAM01296L1.PNG",
+            "earth_date": "2021-11-13",
+            "rover": {
+                "id": 5,
+                "name": "Curiosity",
+                "landing_date": "2012-08-06",
+                "launch_date": "2011-11-26",
+                "status": "active"
+            }
+        }
+    ]
+}
