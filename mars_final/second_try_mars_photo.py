@@ -2,6 +2,8 @@ import json
 import requests
 from nasa_api import API
 from commands_nasa import *
+from path_except import *
+
 
 def user_input_data():
     try:
@@ -32,22 +34,25 @@ def response_user_url():
         url = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos'
         response = requests.get(url, params=parameter)
         if response.status_code == 200:
-            with open('mars_photos.json', 'w', encoding='utf-8') as file_json:
-                json.dump(response.json(), file_json, ensure_ascii=False, indent=4)
-            return 'mars_photos.json'
+            return response.json()
     except ConnectionError:
         print(connection_error_messages)
 
+
+def write_json_file():
+    with open('mars_photos.json', 'w', encoding='utf-8') as file_json:
+        json.dump(response_user_url(), file_json, ensure_ascii=False, indent=4)
+    return 'mars_photos.json'
+
+
+
 def read_json():
-    with open(response_user_url(), 'r', encoding='utf-8') as file_json:
+    with open(write_json_file(), 'r', encoding='utf-8') as file_json:
         read_info = json.load(file_json)
         for photos in read_info['photos']:
             all_photos = photos['img_src']
             print(all_photos)
 
 
-
-
 read_json()
-
 
